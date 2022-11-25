@@ -1,0 +1,95 @@
+body {
+  background-color: #38393d;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Header-Title {
+  flex: auto;
+  color: #25d7f7;
+  padding: 8px;
+  width: 20px;
+}
+
+.Search {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #1a5dd8;
+  border-radius: 16px;
+  box-sizing: border-box;
+  
+}
+
+.Header-Button {
+  flex: auto;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.Main-Body {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  font-size: 25px;
+  color: white;
+  gap: 20px;
+  height: 600px;
+}
+
+.Side-Bar {
+  padding-top: 40px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Side-Element {
+  background-color: #23262c;
+  padding: 12px;
+  border: 2px solid #1a5dd8;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 25px;
+}
+
+.Side-Element:hover {
+  background-color: #35363a;
+}
+
+.Highlights {
+  background-color: #23262c;
+  padding: 12px;
+  border: 2px solid #1a5dd8;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 25px;
+  height: 90%;
+  margin-top: 40px;
+  flex: auto;
+}
